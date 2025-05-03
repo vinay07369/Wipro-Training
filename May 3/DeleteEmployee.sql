@@ -1,0 +1,2 @@
+DELETE FROM Employees
+WHERE EmpID = 5;
