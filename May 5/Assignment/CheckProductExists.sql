@@ -4,7 +4,7 @@ CREATE PROCEDURE CheckProductExists
 AS
 BEGIN
 	IF EXISTS (SELECT * FROM Products WHERE ProductID = @ProductID )
-		SET @Exists = 1;
+		SET @Exists = 1; -- True
 	ELSE
-		SET @Exists = 0;
+		SET @Exists = 0; -- False
 END;
