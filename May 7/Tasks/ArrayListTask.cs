@@ -12,14 +12,15 @@ class Program
         names.Add("Suresh K");
         names.Add("Pawan P");
 
+        // checks if a specific name exists..
         if (names.Contains("Vinay Kumar G"))
-            names.RemoveAt(1);
+            names.RemoveAt(1); // remove the second name based on index
         else
-            Console.WriteLine("Name not Found!");
+            Console.WriteLine("Name doesn't exists!"); // if the name not found
 
         foreach (string name in names)
         {
-            Console.WriteLine(name);
+            Console.WriteLine(name); // displays the final list
         }
     }
 }
