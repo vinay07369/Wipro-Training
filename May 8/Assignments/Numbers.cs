@@ -28,7 +28,7 @@ namespace arrayList
             Console.WriteLine($"Maximum:{max}");
             Console.WriteLine($"Manimum:{min}");
 
-            //Average
+            //Average value
             double average = num.Average();
 
             Console.WriteLine("The Average:"+average);
