@@ -28,8 +28,14 @@ namespace arrayList
             Console.WriteLine($"Maximum:{max}");
             Console.WriteLine($"Manimum:{min}");
 
-            //Average value
-            double average = num.Average();
+            //Average
+            int sum = 0;
+            foreach (int i in num) 
+            {
+                sum += i;
+            }
+
+            double average = sum / num.Count;
 
             Console.WriteLine("The Average:"+average);
         }
