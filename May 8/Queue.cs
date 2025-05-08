@@ -14,7 +14,7 @@ namespace city
             queue.Enqueue("Vinay");
             queue.Enqueue("Sai");
             queue.Enqueue("Sanjay");
-            queue.Enqueue("saran");
+            queue.Enqueue("saran kumar");
 
             Console.WriteLine("Queue Elements:");
             foreach (var name in queue) { 
