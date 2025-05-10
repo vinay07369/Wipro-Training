@@ -56,3 +56,4 @@ namespace ConsoleApp2
             smartThermostat.changeTemperature(24.0); 
         }
     }
+}
