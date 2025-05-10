@@ -11,9 +11,22 @@ namespace ConsoleApp2
     {
         public int power(int Base, int Exponent)
         {
-            int res = (int)Math.Pow(Base, Exponent);
 
-            return res ;
+            int res = 1;
+
+            if (Exponent>0)
+            {
+                for (int i = 0; i < Exponent; i++)
+                {
+                    res *= Base;
+                }
+            }
+            else
+            {
+                return 0;
+            }
+
+            return res;
         }
 
         public double power(double Base, double Exponent)
@@ -24,7 +37,7 @@ namespace ConsoleApp2
         }
     }
 
-    class ProgramMain : Power
+    class PRogrammain : Power
     {
 
         static void Main()
@@ -38,7 +51,11 @@ namespace ConsoleApp2
 
             Console.WriteLine($"The power of two integer numbers:{res1}");
 
+
             Console.WriteLine($"The power of two Decimal numbers:{res2}");
-        } 
+
+        }
+       
     }
 }
+    
