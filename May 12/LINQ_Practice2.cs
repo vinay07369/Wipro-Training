@@ -9,11 +9,11 @@ class Program
     {
         string[] names = { "Vinay", "Sai", "Raghul", "Anil", "Imran", "Naresh", "Suman"};
 
-        UsingLinq(names);
+        UsingLinqExtensions(names);
 
     }
 
-    private static void UsingLinq(string[] names)
+    private static void UsingLinqExtensions(string[] names)
     {
 
         IEnumerable<string> query = names
