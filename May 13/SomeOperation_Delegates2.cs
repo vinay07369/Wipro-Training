@@ -8,8 +8,7 @@ namespace Delegate_practice
 {
     internal class Delegates
     {
-
-        public delegate int SomeOperation(int x, int y);
+        //Without using delegate keyword...
         class Program
         {
             static int Sum(int x, int y)
