@@ -6,6 +6,8 @@ using System.Xml.Linq;
 
 namespace Delegates_Practice
 {
+
+    //Define a custom delegate that has a string parameter and returns void
     delegate void CustomDel(string s);
 
     class TestClass
