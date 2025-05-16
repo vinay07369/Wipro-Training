@@ -7601,11 +7601,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\VINAY KUMAR G\\source\\repos\\EmployeeWebApp\\EmployeeWebApp\\EmployeeWebApp.csproj",
+      "projectUniqueName": "C:\\Users\\VINAY KUMAR G\\OneDrive\\Desktop\\Projects\\Wipro-Training\\May 15\\EmployeeWebApp\\EmployeeWebApp.csproj",
       "projectName": "EmployeeWebApp",
-      "projectPath": "C:\\Users\\VINAY KUMAR G\\source\\repos\\EmployeeWebApp\\EmployeeWebApp\\EmployeeWebApp.csproj",
+      "projectPath": "C:\\Users\\VINAY KUMAR G\\OneDrive\\Desktop\\Projects\\Wipro-Training\\May 15\\EmployeeWebApp\\EmployeeWebApp.csproj",
       "packagesPath": "C:\\Users\\VINAY KUMAR G\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\VINAY KUMAR G\\source\\repos\\EmployeeWebApp\\EmployeeWebApp\\obj\\",
+      "outputPath": "C:\\Users\\VINAY KUMAR G\\OneDrive\\Desktop\\Projects\\Wipro-Training\\May 15\\EmployeeWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
