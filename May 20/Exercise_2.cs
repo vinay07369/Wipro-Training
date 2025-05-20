@@ -28,6 +28,12 @@ class SearchingAlgorithms
         int binaryCom = 0;
         int binaryPositions = BinarySearch(sortArray, key, out binaryCom);
         Console.WriteLine($"\nBinary Search:\nBinary Comparisons:{binaryCom}, Binary Positions:{binaryPositions}");
+
+        Console.WriteLine("\nEfficiency Analysis:");
+        Console.WriteLine("Linear Search:O(n) Time Complexity");
+        Console.WriteLine("Binary Search:O(log n) Time Complexity");
+        Console.WriteLine("Binary Search is more efficient for large sorted lists");
+        Console.WriteLine("For very small lists or unsorted data, Linear Search may be sufficient.");
     }
 
     static int LinearSearch(int[] arr, int key, out int comparison)
