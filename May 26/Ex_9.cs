@@ -12,16 +12,15 @@ public class ParallelTaskErrors
         // Create a list of tasks, some of which will throw exceptions
         List<Task> tasks = new List<Task>
         {
-            ProcessDataAsync("Task 1 (Success)", 200, false), // This task will succeed
-            ProcessDataAsync("Task 2 (Error)", 300, true),   // This task will throw an exception
-            ProcessDataAsync("Task 3 (Success)", 150, false), // This task will succeed
-            ProcessDataAsync("Task 4 (Error)", 400, true),   // This task will throw an exception
-            ProcessDataAsync("Task 5 (Success)", 250, false)  // This task will succeed
+            ProcessDataAsync("Task 1 (Success)", 200, false),
+            ProcessDataAsync("Task 2 (Error)", 300, true),   
+            ProcessDataAsync("Task 3 (Success)", 150, false), 
+            ProcessDataAsync("Task 4 (Error)", 400, true),   
+            ProcessDataAsync("Task 5 (Success)", 250, false) 
         };
 
         try
         {
-            // Await all tasks. If any task throws, Task.WhenAll will throw an AggregateException.
             await Task.WhenAll(tasks);
             Console.WriteLine("\nAll tasks completed successfully (this message should not appear if errors occurred).");
         }
@@ -50,7 +49,7 @@ public class ParallelTaskErrors
         finally
         {
             // This block will always execute after the try/catch, regardless of exceptions.
-            Console.WriteLine("\nSummary: All parallel tasks have finished execution (or attempted to).");
+            Console.WriteLine("\nSummary: All parallel tasks have finished execution.");
             Console.WriteLine("Program finished.");
         }
 
