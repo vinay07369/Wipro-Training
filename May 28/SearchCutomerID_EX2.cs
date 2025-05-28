@@ -10,6 +10,7 @@ namespace ConsoleAppM28
             Console.WriteLine("Enter CustomerID to search for orders:");
             string customerId = Console.ReadLine();
 
+            //Condition to check whether customer ID is present or not
             if (!string.IsNullOrEmpty(customerId))
             {
                 SearchCustometID.GetOrdersByCustomer(customerId);
