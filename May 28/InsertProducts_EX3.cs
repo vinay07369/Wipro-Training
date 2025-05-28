@@ -8,7 +8,7 @@ class InsertProducts
         // Connection string to connect to the Northwind database
         string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=Northwind;" + "Integrated Security=true";
 
-        // SQL query to select CustomerID, CompanyName, and Country from the Customers table
+        // SQL query to Insert ProductName, SupplierID, CategoryID, UnitPrice 
         string sqlquery = @"INSERT INTO PRODUCTS (ProductName, SupplierID, CategoryID, UnitPrice) VALUES (@ProductName, @SupplierID, @CategoryID, @UnitPrice)";
 
         // Create a connection to the database and execute the query
