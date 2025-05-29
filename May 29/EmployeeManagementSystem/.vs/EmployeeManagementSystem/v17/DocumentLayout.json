@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\source\\repos\\EmployeeManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ECAB9C47-A61F-4491-93A2-50E27BCA8C78}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\admin\\source\\repos\\employeemanagementsystem\\employeemanagementsystem\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ECAB9C47-A61F-4491-93A2-50E27BCA8C78}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECAB9C47-A61F-4491-93A2-50E27BCA8C78}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\admin\\source\\repos\\employeemanagementsystem\\employeemanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ECAB9C47-A61F-4491-93A2-50E27BCA8C78}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECAB9C47-A61F-4491-93A2-50E27BCA8C78}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\admin\\source\\repos\\employeemanagementsystem\\employeemanagementsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ECAB9C47-A61F-4491-93A2-50E27BCA8C78}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 255,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\Views\\About\\Index.cshtml",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Views\\About\\Index.cshtml",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\Views\\About\\Index.cshtml",
+              "RelativeToolTip": "EmployeeManagementSystem\\Views\\About\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T07:22:16.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "EmployeeManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T07:00:00.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "EmployeeManagementSystem\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHEAAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T06:42:53.566Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

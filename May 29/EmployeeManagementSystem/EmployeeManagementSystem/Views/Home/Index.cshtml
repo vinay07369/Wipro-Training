@@ -1,0 +1,136 @@
+﻿@{
+    ViewData["Title"] = "Home Page - Employee Management System";
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+    body {
+        background-color: #f8f9fa; /* A slightly off-white background */
+    }
+
+    .hero-section {
+        background-color: #ffffff; /* White background for contrast */
+        padding: 4rem 1.5rem;
+        margin-bottom: 3rem;
+        border-radius: 0.5rem;
+        box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+        text-align: center;
+    }
+
+        .hero-section h1 {
+            font-weight: 300;
+            color: #343a40; /* Dark grey for heading */
+        }
+
+            .hero-section h1 strong {
+                font-weight: 600;
+                color: #0d6efd; /* Bootstrap primary blue */
+            }
+
+        .hero-section .lead {
+            font-size: 1.15rem;
+            color: #6c757d; /* Muted text color */
+            max-width: 700px;
+            margin: 1rem auto 2rem auto;
+        }
+
+    .section-title {
+        text-align: center;
+        margin-bottom: 2.5rem;
+        font-weight: 300;
+        color: #495057;
+    }
+
+    .action-card {
+        background-color: #ffffff;
+        border: none;
+        border-radius: 0.5rem;
+        box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        padding: 1.5rem;
+        text-align: center;
+        height: 100%; /* Make cards same height */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+        .action-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+        }
+
+        .action-card .card-icon {
+            font-size: 3rem;
+            color: #0d6efd;
+            margin-bottom: 1rem;
+            line-height: 1; /* Ensure icon doesn't add extra space */
+        }
+
+        .action-card .card-title {
+            font-size: 1.3rem;
+            font-weight: 500;
+            margin-bottom: 0.75rem;
+            color: #343a40;
+        }
+
+        .action-card .card-text {
+            color: #6c757d;
+            flex-grow: 1; /* Pushes button to bottom */
+            margin-bottom: 1.5rem;
+        }
+
+    .stats-section {
+        background-color: #e9ecef; /* A slightly different background */
+        padding: 3rem 1.5rem;
+        margin-top: 3rem;
+        border-radius: 0.5rem;
+    }
+
+    .stat-item {
+        text-align: center;
+        padding: 1rem;
+    }
+
+        .stat-item .stat-number {
+            font-size: 2.5rem;
+            font-weight: 600;
+            color: #0d6efd;
+        }
+
+        .stat-item .stat-label {
+            font-size: 1rem;
+            color: #495057;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+</style>
+
+<div class="hero-section">
+    <h1 class="display-5">Welcome to <strong>Employee<span style="color: #6f42c1;">Manager</span></strong></h1>
+    <p class="lead">
+       This is My EmployeeManagement Portal Where we can Create, Fetch, Update and Delete Employee Details.  
+    </p>
+
+    <div>
+        <a asp-controller="Employees" asp-action="Index" class="btn btn-primary btn-lg me-2">
+            <i class="fas fa-users me-2"></i>View Employees
+        </a>
+        <a asp-controller="Employees" asp-action="Create" class="btn btn-outline-secondary btn-lg">
+            <i class="fas fa-user-plus me-2"></i>Add New Employee
+        </a>
+    </div>
+</div>
+
+<div class="text-center mt-5 mb-4">
+    <p class="text-muted">Need help? Please <a asp-controller="Contact">Contact Us</a> or Visit our Page <a asp-controller="About">About Us</a>.</p>
+</div>
+
+@* <footer> *@
+@* 	<div class="text-center py-4"> *@
+@* 		<p class="text-muted mb-0">&copy; 2023 Employee Management System. All rights reserved.</p> *@
+@* 		<p class="text-muted mb-0">Follow us on <a href="#" class="text-decoration-none">Twitter</a> | <a href="#" class="text-decoration-none">Facebook</a> | <a href="#" class="text-decoration-none">LinkedIn</a></p> *@
+@* 	</div> *@
+@* </footer> *@
