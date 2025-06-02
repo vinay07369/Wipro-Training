@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management Portal</title>
+    <link rel="stylesheet" href="/Student Management Portal/styles.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="navbar-brand">Student Portal</div>
+        <ul class="navbar-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#student-form">Register</a></li>
+            <li><a href="#studentTableBody">Student List</a></li>
+        </ul>
+    </nav>
+   
+    <div class="student-container">
+        <h1>Welcome to Student Management Portal</h1>
+        <p>This is a simple student management website which was build using HTML, CSS, Javascript. In this user can register their details, and perform CRUD Operations</p>
+
+        <form id="student-form" action="" method="post">
+
+            <label for="studentName">Name</label>
+            <input type="text" id="name" placeholder="enter your name" required>
+
+            <label for="studentRollno">Roll No</label>
+            <input type="text" id="roll" placeholder="enter your roll no" required>
+
+            <label for="studentDept">Department</label>
+            <input type="text" id="dept" placeholder="enter your department" required>
+
+            <label for="studentEmail">Email ID</label>
+            <input type="email" id="email" placeholder="enter your email" required>
+
+            <button type="submit">Add</button>
+
+        </form>
+        
+        <h2>Students List</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Roll No</th>
+                    <th>Department</th>
+                    <th>Eamil ID</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="studentTableBody"></tbody>
+        </table>
+    </div> 
+
+    <script src="/Student Management Portal/script.js"></script>
+</body>
+</html>
