@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\source\\repos\\ProductWebApplicationJ3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ProductWebApplicationJ3Context_a717d908_6ccb_4f1f_9fd6_7291348aa0aa/True/SqlTable/dbo.Product.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\source\\repos\\ProductWebApplicationJ3\\ProductWebApplicationJ3\\Migrations\\20250603040057_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProductWebApplicationJ3\\Migrations\\20250603040057_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84840E1D-B2CE-45C6-8C4F-66AF96462200}|ProductWebApplicationJ3\\ProductWebApplicationJ3.csproj|c:\\users\\admin\\source\\repos\\productwebapplicationj3\\productwebapplicationj3\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84840E1D-B2CE-45C6-8C4F-66AF96462200}|ProductWebApplicationJ3\\ProductWebApplicationJ3.csproj|solutionrelative:productwebapplicationj3\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84840E1D-B2CE-45C6-8C4F-66AF96462200}|ProductWebApplicationJ3\\ProductWebApplicationJ3.csproj|c:\\users\\admin\\source\\repos\\productwebapplicationj3\\productwebapplicationj3\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84840E1D-B2CE-45C6-8C4F-66AF96462200}|ProductWebApplicationJ3\\ProductWebApplicationJ3.csproj|solutionrelative:productwebapplicationj3\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 255,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "dbo.Product [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ProductWebApplicationJ3Context_a717d908_6ccb_4f1f_9fd6_7291348aa0aa/True/SqlTable/dbo.Product.sql",
+              "ToolTip": "dbo.Product [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-06-03T04:01:38.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20250603040057_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\ProductWebApplicationJ3\\ProductWebApplicationJ3\\Migrations\\20250603040057_InitialCreate.cs",
+              "RelativeDocumentMoniker": "ProductWebApplicationJ3\\Migrations\\20250603040057_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\ProductWebApplicationJ3\\ProductWebApplicationJ3\\Migrations\\20250603040057_InitialCreate.cs",
+              "RelativeToolTip": "ProductWebApplicationJ3\\Migrations\\20250603040057_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T04:00:58.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\ProductWebApplicationJ3\\ProductWebApplicationJ3\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "ProductWebApplicationJ3\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\ProductWebApplicationJ3\\ProductWebApplicationJ3\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "ProductWebApplicationJ3\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T04:00:15.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\ProductWebApplicationJ3\\ProductWebApplicationJ3\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ProductWebApplicationJ3\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\ProductWebApplicationJ3\\ProductWebApplicationJ3\\Models\\Product.cs",
+              "RelativeToolTip": "ProductWebApplicationJ3\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T03:56:51.451Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
